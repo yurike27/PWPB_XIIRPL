@@ -1,0 +1,40 @@
+body {
+    background-color: lightgray;
+}
+
+.wrapper {
+    background-color: white;
+    width: 1200px;
+    height: 100%;
+}
+
+.box-1 {
+    width: 250px;
+    height: 250px;
+    background-color: plum;
+    /* untuk penulisan value ada 2 : 1. X Y
+    atas kanan bawah kiri */
+    margin: 30px auto;
+}
+
+.box-2 {
+    width: 200px;
+    height: 250px;
+    background-color: blueviolet;
+    /* untuk penulisan value ada 2 : 1. X Y
+    atas kanan bawah kiri */
+    /* hanya margin yang boleh menggunakan minus */
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.box-3 {
+    width: 250px;
+    height: 250px;
+    background-color: royalblue;
+    margin: 30px auto;
+    border-top: 8px solid black;
+    border-right: 8px dashed navy;
+    border-bottom: 8px dotted palevioletred;
+    border-left: 8px double brown;
+}

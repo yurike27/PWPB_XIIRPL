@@ -1,0 +1,63 @@
+body {
+    background-image: url(bground.jpg);
+    background-size: cover;
+}
+
+.wrapper {
+    background-color: aliceblue;
+    width: 910px;
+    height: 1100;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.judul {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+    padding-top: 1px;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.gambar {
+    background-image: url(Laptop.jpg);
+    margin-top: 30px;
+    height: 500px;
+    background-size: cover;
+    border-top: 8px solid lightsalmon;
+    border-bottom: 8px solid rgb(231, 167, 167);
+}
+
+.artikel {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+}
+
+.artikel span {
+    color: rgb(203, 49, 49);
+}
+
+.isi p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
